@@ -22,7 +22,6 @@
     "lodash": "^4.17.10",
     "mysql2": "^1.6.1",
     "node-dijkstra": "^2.5.0",
-    "priorityqueue": "^0.2.1",
     "url": "^0.11.0"
   },
   "devDependencies": {
