@@ -1,0 +1,29 @@
+{
+  "name": "flights-service",
+  "version": "1.0.0",
+  "description": "A simple microservice providing the shortest route between two airports.",
+  "main": "index.js",
+  "author": "Rasmus Lelumees",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "calculateRouteDistances": "node -r dotenv/config ./lib/db/scripts/calculateRouteDistances.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "geolib": "^2.0.24",
+    "knex": "^0.15.2",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-jwt": "^3.5.0",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.10",
+    "mysql2": "^1.6.1",
+    "node-dijkstra": "^2.5.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  }
+}
